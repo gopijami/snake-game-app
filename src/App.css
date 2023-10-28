@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0px;
+  background-image: linear-gradient(to right, #7de2da,#6f8ba0,#b3b7b7);
+}
+
+h1 {
+  color: #878384b2;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 2px 2px 3px #e8970a,1px 1px 2px #f5097f;
+  font-size: 40px;
+
+}
+

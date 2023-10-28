@@ -1,0 +1,22 @@
+.GameDetails {
+    color: #151516;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 20px 27px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .Score{
+    color: #4e4b4ccb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 28px;
+  margin-right: 10px;
+  }
+
+  .HighScore{
+    color: #4e4b4ccb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-left: 10px;
+  }
