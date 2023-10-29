@@ -106,12 +106,23 @@ const SnakeGame = () => {
     setSnake(newSnake);
   }, [direction, snake, food, score, highScore,checkCollision]);
 
+  const timer = useCallback(()=>{
+    if(snake.length <= 9){
+      return 500;
+    }else if(snake.length<=16){
+      return 400;
+    }else{
+      return 300;
+    }
+
+  },[snake])
+
   useEffect(() => {
     if(start){
-        gameInterval = setInterval(updateGame, 500);
+        gameInterval = setInterval(updateGame, timer());
         return () => clearInterval(gameInterval);
     }
-  }, [start,updateGame]);
+  }, [start,updateGame,timer]);
 
   return (
     <center>
