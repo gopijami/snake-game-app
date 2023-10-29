@@ -142,15 +142,15 @@
       
       .GameContainer {
         display: grid;
-        grid-template-columns: repeat(20, 14px);
+        grid-template-columns: repeat(20, 16px);
         width: 90%;
         margin: 0 auto;
 
       }
       
       .Cell {
-        width: 14px;
-        height: 14px;
+        width: 16px;
+        height: 16px;
         border: 1px solid #000;
       }
       
